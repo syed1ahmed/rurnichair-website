@@ -3171,7 +3171,7 @@ fieldset:disabled a.btn {
 
 .btn-white {
   color: #212529;
-  background-color: #fff;
+  background-color: #bebebe;
   border-color: #fff;
   box-shadow: none;
 }
@@ -16167,7 +16167,7 @@ a.text-white:hover, a.text-white:focus {
 .sticky-area {
   transition: all 0.5s;
   height: auto;
-  background-color: transparent;
+  background-color: #000000;
 }
 
 .sticky-area-wrap {
