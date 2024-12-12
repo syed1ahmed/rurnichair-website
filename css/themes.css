@@ -16167,7 +16167,7 @@ a.text-white:hover, a.text-white:focus {
 .sticky-area {
   transition: all 0.5s;
   height: auto;
-  background-color: #000000;
+  background-color: transparent;
 }
 
 .sticky-area-wrap {
