@@ -46,6 +46,7 @@
 }
 
 html {
+  scroll-behavior: smooth;
   font-family: sans-serif;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
@@ -4699,7 +4700,8 @@ input[type="button"].btn-block {
 
 .nav-link {
   display: block;
-  padding: 0.5rem 1rem;
+  padding: 0.9rem 1rem;
+  text-transform: uppercase;
 }
 
 .nav-link:hover, .nav-link:focus {
@@ -15930,6 +15932,7 @@ button.bg-white:focus {
 
 .font-weight-bold {
   font-weight: 700 !important;
+  text-transform: uppercase;
 }
 
 .font-weight-bolder {
@@ -16167,7 +16170,7 @@ a.text-white:hover, a.text-white:focus {
 .sticky-area {
   transition: all 0.5s;
   height: auto;
-  background-color: transparent;
+  background-color: #000;
 }
 
 .sticky-area-wrap {
@@ -22235,6 +22238,14 @@ img {
 @media (max-width: 575px) {
   img {
     max-width: 40%;
+    height: auto;
+  }
+}
+
+
+@media (max-width: 575px) {
+  .burger-menu {
+    max-width: 125% !important;
     height: auto;
   }
 }
